@@ -1,0 +1,23 @@
+# -------------------- General --------------------
+paradigm_mode: 1          # 0-visual, 1-AV-target, 2-bimodal, 3-auditory
+fullscreen:    false
+pre_start_delay_s: 10
+
+# -------------------- Timing ---------------------
+n_trials:            200
+std_to_target_ratio: 0.8
+fixation_duration_s: 0.500
+stim_duration_s:     0.300
+isi_mean_s:          0.800
+isi_jitter_s:        0.200
+
+# -------------------- Visual ---------------------
+std_color:   [0.6, 0.6, 0.6, 1]   # RGBA 0-1
+targ_color:  [0.0, 0.6, 1.0, 1]
+square_rel_size: 0.6               # fraction of screen height
+marker_size_px: 50
+marker_on_ms:   50
+marker_off_ms:  50
+
+# -------------------- Output ---------------------
+log_filename: "paradigm_log.csv"

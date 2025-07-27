@@ -1,0 +1,3 @@
+kivy==2.3.0          # GUI + graphics
+pylsl>=1.16.2        # LSL markers (will auto-skip if missing)
+pyyaml
